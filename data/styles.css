@@ -1,0 +1,151 @@
+﻿body {
+  margin:0 auto;
+  background-color:rgba(215, 116, 128, 0.2549019607843137);
+  background-image:none;
+  position:relative;
+  left:-0px;
+  width:380px;
+  text-align:left;
+}
+/* Общие стили */
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+}
+
+/* Стили для мобильных устройств */
+@media only screen and (max-width: 600px) {
+  /* Уменьшаем размер шрифта для лучшей читаемости на маленьких экранах */
+  .heading_1, .heading_2, .heading_3 {
+    font-size: 24px;
+  }
+
+  /* Изменяем расположение элементов, например, центрируем логотип */
+  #u3 {
+    text-align: center;
+  }
+
+  /* Скрываем некоторые элементы, чтобы сделать макет более компактным */
+  #u7, #u21, #u23, #u25, #u26, #u27, #u28, #u29, #u30, #u31, #u32, #u33, #u34, #u35, #u37, #u38, #u39, #u40, #u41, #u42, #u43, #u44, #u45, #u46 {
+    display: none;
+  }
+}
+
+/* Стили для компьютеров */
+@media only screen and (min-width: 601px) {
+  /* Увеличиваем размер шрифта для лучшей читаемости на больших экранах */
+  .heading_1, .heading_2, .heading_3 {
+    font-size: 32px;
+  }
+
+  /* Возвращаем элементы, которые были скрыты для мобильных устройств */
+  #u7, #u21, #u23, #u25, #u26, #u27, #u28, #u29, #u30, #u31, #u32, #u33, #u34, #u35, #u37, #u38, #u39, #u40, #u41, #u42, #u43, #u44, #u45, #u46 {
+    display: block;
+  }
+}
+.ax_default {
+  font-family:"Arial Обычный", "Arial", sans-serif;
+  font-weight:375;
+  font-style:normal;
+  font-size:13px;
+  letter-spacing:normal;
+  color:#333333;
+  vertical-align:none;
+  text-align:center;
+  line-height:normal;
+  text-transform:none;
+}
+.box_1 {
+}
+.ellipse {
+}
+.image {
+}
+.placeholder {
+}
+.primary_button {
+  color:#FFFFFF;
+}
+.link_button {
+  color:#1E98D7;
+}
+.heading_1 {
+  font-family:"Arial Обычный", "Arial", sans-serif;
+  font-weight:bold;
+  font-style:normal;
+  font-size:32px;
+  text-align:left;
+}
+.heading_2 {
+  font-family:"Arial Обычный", "Arial", sans-serif;
+  font-weight:bold;
+  font-style:normal;
+  font-size:24px;
+  text-align:left;
+}
+.heading_3 {
+  font-family:"Arial Обычный", "Arial", sans-serif;
+  font-weight:bold;
+  font-style:normal;
+  font-size:18px;
+  text-align:left;
+}
+.heading_4 {
+  font-family:"Arial Обычный", "Arial", sans-serif;
+  font-weight:bold;
+  font-style:normal;
+  font-size:14px;
+  text-align:left;
+}
+.heading_5 {
+  font-family:"Arial Обычный", "Arial", sans-serif;
+  font-weight:bold;
+  font-style:normal;
+  text-align:left;
+}
+.heading_6 {
+  font-family:"Arial Обычный", "Arial", sans-serif;
+  font-weight:bold;
+  font-style:normal;
+  font-size:10px;
+  text-align:left;
+}
+.label {
+  font-size:13px;
+  text-align:left;
+}
+.paragraph {
+  text-align:left;
+}
+.line {
+}
+.text_field {
+  color:#000000;
+  text-align:left;
+}
+.droplist {
+  color:#000000;
+  text-align:left;
+}
+.menu_item {
+}
+.snapshot {
+}
+.form_hint {
+  color:#999999;
+}
+.form_disabled {
+}
+.primary_button1 {
+  color:#FFFFFF;
+}
+.icon {
+}
+.label1 {
+  font-size:14px;
+  text-align:left;
+}
+.checkbox {
+  text-align:left;
+}
+textarea, select, input, button { outline: none; }
